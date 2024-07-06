@@ -12,6 +12,8 @@ RUN apt-get update \
    g++ \
    gfortran \
    git \
+   libboost-log-dev \
+   libboost-program-options-dev \
    make \
    wget \
    && rm -rf /var/lib/apt/lists/*
